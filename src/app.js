@@ -40,7 +40,8 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help ',
-        name: 'This is help page'
+        message: 'If you have any querry please contact to the developer.',
+        name: 'Dipika kantura'
     })
 })
 
